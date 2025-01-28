@@ -21,7 +21,7 @@ theme:
 
   # -- font settings --
   font:
-    text: Rubik
+    text: Roboto
     code: JetBrainsMono Nerd Font
 
   # -- language settings --
