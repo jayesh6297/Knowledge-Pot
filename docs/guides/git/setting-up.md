@@ -1,6 +1,10 @@
-# Setting up git
+---
+title: getting started
+---
 
-## setting up with https
+# Setting up git for first time
+
+## Using HTTP
 ---
 - set user name `git config --global user.name "your_user_name"`
 - set email `git config --global user.email "your_email"`
@@ -12,7 +16,7 @@
 !!! tip "optional"
 	you can try https://github.com/hickford/git-credential-oauth this library to authenticate using oauth installation instruction are given in repo.
 
-## setting up with ssh
+## Using SSH
 ---
 - install `openssh` package in your system
 - enable service to start on startup for ssh daemon and keygen using `sudo systemctl enable --now sshd sshdgenkeys`
