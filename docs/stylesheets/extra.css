@@ -10,11 +10,11 @@
 	src: url("./fonts/JetBrainsMonoNerdFontPropo-Regular.ttf")
 }
 
-
 @font-face{
 	font-family: "Barlow";
 	src: url("./fonts/barlow.ttf")
 }
+
 
 code {
 	border-radius: 10px !important;
