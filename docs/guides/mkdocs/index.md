@@ -4,7 +4,7 @@ hide:
     - toc
 ---
 
-# Home
+# Mkdocs syntax guide
 
 This page contains examples of how to proceed with notetaking and knowledge base with mkdocs syntax
 
