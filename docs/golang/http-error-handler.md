@@ -1,5 +1,8 @@
-# HTTP Error Handling in golang
+---
+title: http error
+---
 
+# Error handling in standard http handler by creating custom handler method
 Golang have excellent http library built in but it does not offer returning error for convient use case. 
 where other router like echo does offer error returing handler. now in this post we are going to look at creating http error returning handler.
 how create how to execute it.

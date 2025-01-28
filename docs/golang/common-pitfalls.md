@@ -1,12 +1,12 @@
 ---
+title: Gotchas in GO 
 tags:
     - golang
     - common mistakes
+    - gotchas
 hide:
     - toc
 ---
-
-# Gotchas and common mistakes
 
 ### overview
 
