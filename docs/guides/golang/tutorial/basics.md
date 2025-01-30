@@ -340,7 +340,7 @@ func main() {
 - for priting the value of pointer you can use astricks operator before variable name `*sptr` effectively dereferencing it.
 - below is the image of pointer deferencing →
 
-![pointerInGo](https://raw.githubusercontent.com/ark-j/knowledge-pot/refs/heads/main/assets/images/golang/basics/pointersInGo.webp)
+![pointerInGo](../../../assets/images/golang/basics/pointersInGo.webp)
 
 ```go
 package main
@@ -415,7 +415,7 @@ type employer struct {
             Cap  int
     }
     ```
-    ![slices](https://raw.githubusercontent.com/ark-j/knowledge-pot/refs/heads/main/assets/images/golang/basics/slice.webp)
+    ![slices](../../../assets/images/golang/basics/slice.webp)
     
 - default value of slice is usable.
 
@@ -545,9 +545,9 @@ type animal interface {
 - default value of interface is nil.
 - Interface are implemented implicitly
 - Helps write more modular and decoupled code between different parts of codebase – It can help reduce dependency between different parts of codebase and provide loose coupling this is application of interface.
-- A type implements an interface if it defines all methods of an interface. If that defines all methods of another interface then it implements that interface. In essence, a type can implement multiple interfaces.
-
-![interfaces](https://raw.githubusercontent.com/ark-j/knowledge-pot/refs/heads/main/assets/images/golang/basics/interface_1.webp)
+- A type implements an interface if it defines all methods of an interface. 
+- If that defines all methods of another interface then it implements that interface. In essence, a type can implement multiple interfaces.
+![interfaces](../../../assets/images/golang/basics/interface_1.webp)
 
 - type asserting syntax `val := i.({type})`
 - to get concret value of interface type assertion is used in golang.

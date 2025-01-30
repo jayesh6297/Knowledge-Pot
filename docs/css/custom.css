@@ -27,6 +27,14 @@ code {
   border-radius: 5px !important;
 }
 
+img {
+  border-radius: 10px;
+}
+
+.highlight {
+  font-weight: bold !important;
+}
+
 termynal-comment {
   color: #4a968f;
   font-style: italic;

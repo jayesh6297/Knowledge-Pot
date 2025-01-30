@@ -2,6 +2,7 @@ site_name: Notes Pot
 repo_url: https://github.com/ark-j/knowledge-pot
 repo_name: ark-j/knowledge-pot
 theme:
+  logo: assets/images/icon.png
   name: material
   palette:
     # -- colors setting --
@@ -23,7 +24,7 @@ theme:
 
   # -- font settings --
   font:
-    text: Inter
+    text: Barlow
     code: JetBrainsMono Nerd Font
 
   # -- language settings --
@@ -75,6 +76,18 @@ plugins:
   - offline
   - tags
   - search
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      background: white
+      shadow: true
+      manual: false
 
 markdown_extensions:
   - markdown.extensions.toc:
