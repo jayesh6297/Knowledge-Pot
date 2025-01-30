@@ -28,7 +28,14 @@ jobs:
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
       - run: |
+          # Switch to the gh-pages branch
+          git fetch origin gh-pages
+          git checkout gh-pages
+
+          # create cname file with content
           echo "blog.arkj.org" > CNAME
+
+          # Add and commit the CNAME file
           git add CNAME
           git commit -m "(add) cname file"
           git push origin gh-pages
