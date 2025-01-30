@@ -139,3 +139,31 @@ def bubble_sort(items):
 ++ctrl+alt+del++
 ```
 ++ctrl+alt+del++
+
+## adding animations
+<div class="termy">
+
+```console
+$ ls -ltr /
+drwxr-xr-x root root 4.0 KB Thu Jan  1 05:30:00 1970  boot
+lrwxrwxrwx root root   7 B  Thu Nov 21 14:26:21 2024  sbin ⇒ usr/bin
+drwxr-xr-x root root 4.0 KB Thu Nov 21 14:26:21 2024  mnt
+lrwxrwxrwx root root   7 B  Thu Nov 21 14:26:21 2024  lib64 ⇒ usr/lib
+lrwxrwxrwx root root   7 B  Thu Nov 21 14:26:21 2024  lib ⇒ usr/lib
+lrwxrwxrwx root root   7 B  Thu Nov 21 14:26:21 2024  bin ⇒ usr/bin
+drwx------ root root  16 KB Sun Dec 22 21:28:38 2024  lost+found
+drwxr-xr-x root root 4.0 KB Sun Dec 22 21:30:07 2024  srv
+drwxr-xr-x root root 4.0 KB Sun Dec 22 21:31:40 2024  home
+drwxr-xr-x root root 4.0 KB Mon Dec 23 01:35:05 2024  opt
+drwx------ root root 4.0 KB Mon Jan  6 01:28:23 2025 󰉐 root
+drwxr-xr-x root root 4.0 KB Wed Jan 29 17:20:23 2025  usr
+dr-xr-xr-x root root   0 B  Thu Jan 30 23:53:50 2025  sys
+dr-xr-xr-x root root   0 B  Thu Jan 30 23:53:50 2025  proc
+drwxr-xr-x root root 4.0 KB Thu Jan 30 23:53:57 2025  var
+drwxr-xr-x root root 4.1 KB Thu Jan 30 23:53:57 2025  dev
+drwxr-xr-x root root 4.0 KB Thu Jan 30 23:54:09 2025  etc
+drwxr-xr-x root root 800 B  Thu Jan 30 23:55:34 2025  run
+drwxrwxrwt root root 560 B  Fri Jan 31 00:31:09 2025  tmp
+```
+
+</div>
