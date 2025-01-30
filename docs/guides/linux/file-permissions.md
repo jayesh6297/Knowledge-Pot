@@ -34,9 +34,33 @@ looking at above table the addition or removal of those will determine permisson
 7 &rarr; read-write-execute<br>
 
 **Take look at below example**
->644 => .rw-r--r-- => read-write to owner. read group and others
->655 => .rw-r-xr-x => read-write to owner. read-execute to group and other
->777 => .rwxrwxrwx => every permission to everyone
->766 => .rwxrw-rw- => all for owner and read-write for group-others
->600 => .rw------- => only owner can read and write
->700 => .rw------- => only owner can read-write-execute
+>644 => .rw-r--r-- => read-write to owner. read group and others<br>
+>655 => .rw-r-xr-x => read-write to owner. read-execute to group and other<br>
+>777 => .rwxrwxrwx => every permission to everyone<br>
+>766 => .rwxrw-rw- => all for owner and read-write for group-others<br>
+>600 => .rw------- => only owner can read and write<br>
+>700 => .rw------- => only owner can read-write-execute<br>
+
+<div class="termy">
+
+```console
+$ touch test.txt
+
+$ ls -l text.txt
+.rw-r--r-- jayesh jayesh 0 B Fri Jan 31 03:38:36 2025  test.txt
+
+$ chmod 766 text.txt
+
+$ ls -l text.txt
+.rwxrw-rw- jayesh jayesh 0 B Fri Jan 31 03:38:36 2025  test.txt
+
+$ getfacl test.txt
+#file: test.txt
+#owner: jayesh
+#group: jayesh
+user::rwx
+group::rw-
+other::rw-
+```
+
+</div>
