@@ -14,7 +14,7 @@ title: getting started
 - credentials store with libsecret are encrypted so they are secure
 
 !!! tip "optional"
-	you can try https://github.com/hickford/git-credential-oauth this library to authenticate using oauth installation instruction are given in repo.
+    you can try https://github.com/hickford/git-credential-oauth this library to authenticate using oauth installation instruction are given in repo.
 
 ## Using SSH
 ---

@@ -1,4 +1,6 @@
 site_name: Notes Pot
+repo_url: https://github.com/ark-j/knowledge-pot
+repo_name: ark-j/knowledge-pot
 theme:
   name: material
   palette:
